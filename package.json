@@ -1,0 +1,19 @@
+{
+  "name": "angular-animated-button",
+  "version": "3.2.0",
+  "description": "Angular/Bootstrap animated submit button directive.",
+  "main": "angular-animated-button.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neddyy/angular-animated-button.git"
+  },
+  "author": "Jeremy Peters, Edward Winter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neddyy/angular-animated-button/issues"
+  },
+  "dependencies": {
+    "angular": ">1.2.0"
+  },
+  "homepage": "https://github.com/neddyy/angular-animated-button#readme"
+}

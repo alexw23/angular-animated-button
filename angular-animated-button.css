@@ -1,0 +1,28 @@
+.btn-ng-animated .icons {
+  display: inline-block;
+  opacity: 0;
+  width: 0;
+}
+.btn-ng-animated.icons-only .icons,
+.btn-ng-animated.is-active .icons {
+  opacity: 1;
+  width: 1em;
+  margin-right: 0.4em;
+  margin-right: 0.4em;
+  -webkit-transition: opacity 0.15s, width 0.15s;
+  -moz-transition: opacity 0.15s, width 0.15s;
+  -o-transition: opacity 0.15s, width 0.15s;
+  transition: opacity 0.15s, width 0.15s;
+}
+.btn-ng-animated .icon-initial {
+  display: none;
+}
+.btn-ng-animated.icons-only .icon-initial {
+  display: inline-block;
+}
+.btn-ng-animated.is-active .icon-initial {
+  display: none;
+}
+.btn-ng-animated.icons-only .text {
+  display: none;
+}
